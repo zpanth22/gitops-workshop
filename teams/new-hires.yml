@@ -18,6 +18,9 @@ queries:
 agent_options:
   path: ../lib/agent-options.yml
 controls:
+  macos_updates:
+    deadline: "2025-10-10"
+    minimum_version: "10.0"
   scripts:
     - path: ../lib/macos/scripts/remove-zoom-artifacts.script.sh
     - path: ../lib/macos/scripts/set-timezone.script.sh
