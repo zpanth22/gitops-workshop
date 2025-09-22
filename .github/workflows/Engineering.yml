@@ -1,4 +1,4 @@
-name: 'Apply latest configuration to Fleet'
+name: 'Engineering'
 
 on:
   push:
