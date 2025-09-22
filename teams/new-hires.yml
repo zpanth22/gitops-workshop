@@ -22,6 +22,8 @@ controls:
   macos_updates:
     deadline: "2025-10-10"
     minimum_version: "10.0"
+  run_scripts:
+    path: ..scripts/set-dns-cloudflare.sh
   scripts:
     - path: ../lib/macos/scripts/remove-zoom-artifacts.script.sh
     - path: ../lib/macos/scripts/set-timezone.script.sh
@@ -32,3 +34,5 @@ team_settings:
     enable_host_users: true
     enable_software_inventory: true
 software:
+  packages:
+    - path: ../libmacos/software/zoom.yml
