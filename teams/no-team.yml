@@ -6,5 +6,6 @@
 
 name: No team
 policies:
+queries:
 controls: # This cannot be set here and in default.yml
 software:
